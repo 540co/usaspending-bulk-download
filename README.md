@@ -28,7 +28,7 @@ From a command line run the following:
 
 >Download all primeawardcontracts in CSV format for 2013 to the /home directory
 
-```php download.php primeawardinsurance 2013 2013 /home/yourusername XML```
+```php download.php primeawardcontracts 2013 2013 /home/yourusername CSV```
 
 
 
