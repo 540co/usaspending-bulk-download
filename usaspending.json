@@ -1,0 +1,107 @@
+{
+  "base_query_url": "http://www.usaspending.gov/customcode/popup1.php?",
+  "primeawardcontracts": {
+    "query": {
+      "ou_code": "All",
+      "spending_category": "Contracts",
+      "detail_level": "Complete",
+      "recipient_state": "All",
+      "pop_state": "All",
+      "rec": "Everything",
+      "since": "",
+      "data_source": "PrimeAward",
+      "is_dept": "false"
+    }
+  },
+  "subawardcontracts": {
+    "query": {
+      "ou_code": "All",
+      "spending_category": "Contracts",
+      "detail_level": "Complete",
+      "recipient_state": "All",
+      "pop_state": "All",
+      "rec": "Everything",
+      "since": "",
+      "data_source": "SubAward",
+      "is_dept": "false"
+    }
+  },
+  "primeawardgrants": {
+    "query": {
+      "ou_code": "All",
+      "spending_category": "Grants",
+      "detail_level": "Complete",
+      "recipient_state": "All",
+      "pop_state": "All",
+      "rec": "Everything",
+      "since": "",
+      "data_source": "PrimeAward",
+      "is_dept": "false"
+    }
+  },
+  "subawardgrants": {
+    "query": {
+      "ou_code": "All",
+      "spending_category": "Grants",
+      "detail_level": "Complete",
+      "recipient_state": "All",
+      "pop_state": "All",
+      "rec": "Everything",
+      "since": "",
+      "data_source": "SubAward",
+      "is_dept": "false"
+    }
+  },
+  "primeawardloans": {
+    "query": {
+      "ou_code": "All",
+      "spending_category": "Loans",
+      "detail_level": "Complete",
+      "recipient_state": "All",
+      "pop_state": "All",
+      "rec": "Everything",
+      "since": "",
+      "data_source": "PrimeAward",
+      "is_dept": "false"
+    }
+  },
+  "primeawarddirectpayments": {
+    "query": {
+      "ou_code": "All",
+      "spending_category": "DirectPayments",
+      "detail_level": "Complete",
+      "recipient_state": "All",
+      "pop_state": "All",
+      "rec": "Everything",
+      "since": "",
+      "data_source": "PrimeAward",
+      "is_dept": "false"
+    }
+  },
+  "primeawardinsurance": {
+    "query": {
+      "ou_code": "All",
+      "spending_category": "Insurance",
+      "detail_level": "Complete",
+      "recipient_state": "All",
+      "pop_state": "All",
+      "rec": "Everything",
+      "since": "",
+      "data_source": "PrimeAward",
+      "is_dept": "false"
+    }
+  },
+  "primeawardother": {
+    "query": {
+      "ou_code": "All",
+      "spending_category": "Other",
+      "detail_level": "Complete",
+      "recipient_state": "All",
+      "pop_state": "All",
+      "rec": "Everything",
+      "since": "",
+      "data_source": "PrimeAward",
+      "is_dept": "false"
+    }
+  }
+}
