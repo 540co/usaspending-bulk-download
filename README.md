@@ -19,6 +19,19 @@ From a command line run the following:
 |`[DOWNLOAD_DIR]`	|   Where to download files to (some files are big, so make sure there is lots of disk space available)  |
 |`[FILE_FORMAT]`  		|   File format<br ><br >`CSV`<br >`TSV`<br >`XML`<br >`Atom` |
 
+
+###Example
+
+>Download all primeawardinsurances in  XML format from years 2000-2014 to the /tmp directory
+
+```php download.php primeawardinsurance 2000 2014 /tmp XML```
+
+>Download all primeawardcontracts in CSV format for 2013 to the /home directory
+
+```php download.php primeawardinsurance 2013 2013 /home/yourusername XML```
+
+
+
 ###How does it work?
 It submits the query information provided to `http://usaspending.gov/data` form and parses results to determine the appropriate download link.  It then initiates the download.
 
