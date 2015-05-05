@@ -1,3 +1,5 @@
+*** Important note:  Due to the recent changes on USASPENDING (as of April 1, 2015), this script no longer works - if you need something like this let me know and I will try to port some of the refactor we did for for https://fedapi.io/ usaspending catalog ***
+
 ## usaspending.gov bulk download
 
 ###What does the script do?
